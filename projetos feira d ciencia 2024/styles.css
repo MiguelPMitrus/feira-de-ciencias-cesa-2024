@@ -1,0 +1,20 @@
+body {
+    margin: 0%; /* Remove margens do corpo */
+    padding: 0; /* Remove padding do corpo */
+    overflow: hidden; /* Impede rolagem */
+}
+
+main {
+    position: relative; /* Permite que a imagem seja posicionada em relação ao main */
+    height: 100vh; /* Altura total da janela */
+    width: 100vw; /* Largura total da janela */
+}
+
+.arte-principal {
+    position: relative; /* Permite que a imagem ocupe a tela inteira */
+    top: 0; /* Inicia no topo */
+    left: 0; /* Inicia à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre a área */
+}
